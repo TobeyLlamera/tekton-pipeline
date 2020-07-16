@@ -1,5 +1,7 @@
 FROM golang
 
+COPY . /go/src/github.com/TobeyLlamera/tekton-pipeline/
+
 RUN go install github.com/TobeyLlamera/tekton-pipeline/test/gohelloworld
 
 ENTRYPOINT /go/bin/gohelloworld
