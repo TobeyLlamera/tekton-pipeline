@@ -1,6 +1,6 @@
 FROM golang
 
-RUN go install github.com/tektoncd/pipeline/test/gohelloworld
+RUN go install github.com/TobeyLlamera/tekton-pipeline/test/gohelloworld
 
 ENTRYPOINT /go/bin/gohelloworld
 
