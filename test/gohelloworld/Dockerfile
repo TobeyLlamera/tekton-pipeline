@@ -1,4 +1,4 @@
-FROM scratch
+FROM golang
 
 COPY . /go/src/github.com/TobeyLlamera/tekton-pipeline/
 
